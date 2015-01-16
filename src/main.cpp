@@ -36,7 +36,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db");
+uint256 hashGenesisBlock("0x409b270c3cc998a5c13e6e39ea60c8851cc62aa51e55d9002dc64a9242023b08");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 26);
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2768,7 +2768,7 @@ bool LoadBlockIndex()
         pchMessageStart[3] = 0xe2;
         // 
         // 
-        hashGenesisBlock = uint256("0x0000002f8d361b95912af19fa5104bd52644cd5d118526beff8b1e05839d38db");
+        hashGenesisBlock = uint256("0x409b270c3cc998a5c13e6e39ea60c8851cc62aa51e55d9002dc64a9242023b08");
     }
 
     //
@@ -2798,7 +2798,7 @@ bool InitBlockIndex() {
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
         // 
-        const char* pszTimestamp = "Cassubian Foundation for Digital Profit 2014";
+        const char* pszTimestamp = "January 2015 GeoCoin";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2810,14 +2810,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1404854056;
+        block.nTime    = 1421391931;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 1176006659;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1404854056;
-            block.nNonce   = 1176006659;
+            block.nTime    = 1421391931;
+            block.nNonce   = 0;
         }
 
         printf("block.nTime = %u \n", block.nTime);

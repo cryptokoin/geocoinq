@@ -27,6 +27,6 @@ information or see http://opensource.org/licenses/MIT.
 geocoin
 ========
 
-Cassubian Geo
-Cassubian Geo
+ Geo
+ Geo
 >>>>>>> 64fafa2e0e7cfc8e3acc96b3fb8773bc2dc3ce2d
