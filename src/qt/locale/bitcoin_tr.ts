@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DetkCoin</source>
-        <translation>DetkCoin hakkında</translation>
+        <source>About GeoCoin</source>
+        <translation>GeoCoin hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DetkCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DetkCoin&lt;/b&gt; sürüm</translation>
+        <source>&lt;b&gt;GeoCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GeoCoin&lt;/b&gt; sürüm</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The DetkCoin developers</source>
-        <translation>DetkCoin geliştiricileri</translation>
+        <source>The GeoCoin developers</source>
+        <translation>GeoCoin geliştiricileri</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DetkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için DetkCoin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
+        <source>These are your GeoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için GeoCoin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DetkCoin address</source>
-        <translation>Bir DetkCoin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
+        <source>Sign a message to prove you own a GeoCoin address</source>
+        <translation>Bir GeoCoin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DetkCoin address</source>
-        <translation>Belirtilen DetkCoin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
+        <source>Verify a message to ensure it was signed with a specified GeoCoin address</source>
+        <translation>Belirtilen GeoCoin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DetkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme yapmak için kullanacağınız DetkCoin adreslerinizdir. DetkCoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
+        <source>These are your GeoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödeme yapmak için kullanacağınız GeoCoin adreslerinizdir. GeoCoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DetkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için DetkCoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, DetkCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>GeoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your geocoins from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için GeoCoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, GeoCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DetkCoin</source>
-        <translation>DetkCoin hakkında bilgi göster</translation>
+        <source>Show information about GeoCoin</source>
+        <translation>GeoCoin hakkında bilgi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DetkCoin address</source>
-        <translation>Bir DetkCoin adresine DetkCoin yolla</translation>
+        <source>Send coins to a GeoCoin address</source>
+        <translation>Bir GeoCoin adresine GeoCoin yolla</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DetkCoin</source>
-        <translation>DetkCoin seçeneklerinin yapılandırmasını değiştir</translation>
+        <source>Modify configuration options for GeoCoin</source>
+        <translation>GeoCoin seçeneklerinin yapılandırmasını değiştir</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DetkCoin</source>
-        <translation>DetkCoin</translation>
+        <source>GeoCoin</source>
+        <translation>GeoCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DetkCoin</source>
-        <translation>DetkCoin &amp;Hakkında</translation>
+        <source>&amp;About GeoCoin</source>
+        <translation>GeoCoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DetkCoin addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için DetkCoin adresleri ile imzala</translation>
+        <source>Sign messages with your GeoCoin addresses to prove you own them</source>
+        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için GeoCoin adresleri ile imzala</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DetkCoin addresses</source>
-        <translation>Belirtilen DetkCoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified GeoCoin addresses</source>
+        <translation>Belirtilen GeoCoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>DetkCoin client</source>
-        <translation>DetkCoin istemcisi</translation>
+        <source>GeoCoin client</source>
+        <translation>GeoCoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DetkCoin network</source>
-        <translation><numerusform>DetkCoin şebekesine %n faal bağlantı</numerusform><numerusform>DetkCoin şebekesine %n faal bağlantı</numerusform></translation>
+        <source>%n active connection(s) to GeoCoin network</source>
+        <translation><numerusform>GeoCoin şebekesine %n faal bağlantı</numerusform><numerusform>GeoCoin şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DetkCoin address or malformed URI parameters.</source>
-        <translation>URI okunamadı! Sebebi geçersiz bir DetkCoin adresi veya hatalı URI parametreleri olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GeoCoin address or malformed URI parameters.</source>
+        <translation>URI okunamadı! Sebebi geçersiz bir GeoCoin adresi veya hatalı URI parametreleri olabilir.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DetkCoin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. DetkCoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
+        <source>A fatal error occurred. GeoCoin can no longer continue safely and will quit.</source>
+        <translation>Ciddi bir hata oluştu. GeoCoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DetkCoin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir DetkCoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GeoCoin address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir GeoCoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DetkCoin-Qt</source>
-        <translation>DetkCoin-Qt</translation>
+        <source>GeoCoin-Qt</source>
+        <translation>GeoCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DetkCoin after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında DetkCoin&apos;i otomatik olarak başlat.</translation>
+        <source>Automatically start GeoCoin after logging in to the system.</source>
+        <translation>Sistemde oturum açıldığında GeoCoin&apos;i otomatik olarak başlat.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DetkCoin on system login</source>
-        <translation>DetkCoin&apos;i sistem oturumuyla &amp;başlat</translation>
+        <source>&amp;Start GeoCoin on system login</source>
+        <translation>GeoCoin&apos;i sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DetkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide DetkCoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the GeoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide GeoCoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DetkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>DetkCoin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
+        <source>Connect to the GeoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>GeoCoin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DetkCoin.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar DetkCoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GeoCoin.</source>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar GeoCoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -940,12 +940,12 @@ Adres: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>DetkCoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>GeoCoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DetkCoin addresses in the transaction list or not.</source>
-        <translation>Muamele listesinde DetkCoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
+        <source>Whether to show GeoCoin addresses in the transaction list or not.</source>
+        <translation>Muamele listesinde GeoCoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DetkCoin.</source>
-        <translation>Bu ayarlar DetkCoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>This setting will take effect after restarting GeoCoin.</source>
+        <translation>Bu ayarlar GeoCoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,7 +1015,7 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DetkCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GeoCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start detkcoin: click-to-pay handler</source>
-        <translation>DetkCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <source>Cannot start geocoin: click-to-pay handler</source>
+        <translation>GeoCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DetkCoin-Qt help message to get a list with possible DetkCoin command-line options.</source>
-        <translation>Mevcut DetkCoin komut satırı seçeneklerinin listesini içeren DetkCoin-Qt yardımını göster.</translation>
+        <source>Show the GeoCoin-Qt help message to get a list with possible GeoCoin command-line options.</source>
+        <translation>Mevcut GeoCoin komut satırı seçeneklerinin listesini içeren GeoCoin-Qt yardımını göster.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DetkCoin - Debug window</source>
-        <translation>DetkCoin - Hata ayıklama penceresi</translation>
+        <source>GeoCoin - Debug window</source>
+        <translation>GeoCoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DetkCoin Core</source>
-        <translation>DetkCoin Çekirdeği</translation>
+        <source>GeoCoin Core</source>
+        <translation>GeoCoin Çekirdeği</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DetkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Güncel veri klasöründen DetkCoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the GeoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Güncel veri klasöründen GeoCoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DetkCoin RPC console.</source>
-        <translation>DetkCoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the GeoCoin RPC console.</source>
+        <translation>GeoCoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Adres: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>DetkCoin yolla</translation>
+        <translation>GeoCoin yolla</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DetkCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
-        <translation>DetkCoin adresi giriniz (mesela DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
+        <source>Enter a GeoCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
+        <translation>GeoCoin adresi giriniz (mesela DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DetkCoin address</source>
-        <translation>Bu DetkCoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
+        <source>Sign the message to prove you own this GeoCoin address</source>
+        <translation>Bu GeoCoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DetkCoin address</source>
-        <translation>Belirtilen DetkCoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified GeoCoin address</source>
+        <translation>Belirtilen GeoCoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DetkCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
-        <translation>DetkCoin adresi giriniz (mesela DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
+        <source>Enter a GeoCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
+        <translation>GeoCoin adresi giriniz (mesela DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DetkCoin signature</source>
-        <translation>DetkCoin imzası gir</translation>
+        <source>Enter GeoCoin signature</source>
+        <translation>GeoCoin imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The DetkCoin developers</source>
-        <translation>DetkCoin geliştiricileri</translation>
+        <source>The GeoCoin developers</source>
+        <translation>GeoCoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1784,7 +1784,7 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan DetkCoin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan GeoCoin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2137,7 +2137,7 @@ Adres: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>DetkCoin yolla</translation>
+        <translation>GeoCoin yolla</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DetkCoin version</source>
-        <translation>DetkCoin sürümü</translation>
+        <source>GeoCoin version</source>
+        <translation>GeoCoin sürümü</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or detkcoind</source>
-        <translation>-server ya da detkcoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or geocoind</source>
+        <translation>-server ya da geocoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: detkcoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: detkcoin.conf)</translation>
+        <source>Specify configuration file (default: geocoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: geocoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: detkcoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: detkcoind.pid)</translation>
+        <source>Specify pid file (default: geocoind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: geocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=detkcoinrpc
+rpcuser=geocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GeoCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=detkcoinrpc
+rpcuser=geocoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
+mesela: alertnotify=echo %%s | mail -s &quot;GeoCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DetkCoin is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi. DetkCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. GeoCoin is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi. GeoCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2363,7 +2363,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - detkcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - geocoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2377,8 +2377,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DetkCoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse DetkCoin gerektiği gibi çalışamaz.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GeoCoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse GeoCoin gerektiği gibi çalışamaz.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2518,7 +2518,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>DetkCoin oluştur (varsayılan: 0)</translation>
+        <translation>GeoCoin oluştur (varsayılan: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,8 +2627,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DetkCoin Wiki for SSL setup instructions)</source>
-        <translation> SSL seçenekleri: (SSL kurulum bilgisi için DetkCoin vikisine bakınız)</translation>
+        <source>SSL options: (see the GeoCoin Wiki for SSL setup instructions)</source>
+        <translation> SSL seçenekleri: (SSL kurulum bilgisi için GeoCoin vikisine bakınız)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DetkCoin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir DetkCoin sürümüne ihtiyacı var</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GeoCoin</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir GeoCoin sürümüne ihtiyacı var</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DetkCoin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için DetkCoin&apos;i yeniden başlatınız</translation>
+        <source>Wallet needed to be rewritten: restart GeoCoin to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için GeoCoin&apos;i yeniden başlatınız</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DetkCoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. DetkCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. GeoCoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. GeoCoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+64"/>

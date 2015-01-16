@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DetkCoin</source>
-        <translation>&amp;О DetkCoin</translation>
+        <source>About GeoCoin</source>
+        <translation>&amp;О GeoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DetkCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;DetkCoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;GeoCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GeoCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The DetkCoin developers</source>
-        <translation>Разработчики DetkCoin</translation>
+        <source>The GeoCoin developers</source>
+        <translation>Разработчики GeoCoin</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your DetkCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GeoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DetkCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DetkCoin</translation>
+        <source>Sign a message to prove you own a GeoCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом GeoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified DetkCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DetkCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified GeoCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом GeoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your DetkCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your GeoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>DetkCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your detkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши DetkCoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>GeoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your geocoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши GeoCoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about DetkCoin</source>
-        <translation>Показать информацию о DetkCoin&apos;е</translation>
+        <source>Show information about GeoCoin</source>
+        <translation>Показать информацию о GeoCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a DetkCoin address</source>
-        <translation>Отправить монеты на указанный адрес DetkCoin</translation>
+        <source>Send coins to a GeoCoin address</source>
+        <translation>Отправить монеты на указанный адрес GeoCoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for DetkCoin</source>
-        <translation>Изменить параметры конфигурации DetkCoin</translation>
+        <source>Modify configuration options for GeoCoin</source>
+        <translation>Изменить параметры конфигурации GeoCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>DetkCoin</source>
-        <translation>DetkCoin</translation>
+        <source>GeoCoin</source>
+        <translation>GeoCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About DetkCoin</source>
-        <translation>&amp;О DetkCoin</translation>
+        <source>&amp;About GeoCoin</source>
+        <translation>&amp;О GeoCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your DetkCoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом DetkCoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your GeoCoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом GeoCoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DetkCoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом DetkCoin</translation>
+        <source>Verify messages to ensure they were signed with specified GeoCoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом GeoCoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>DetkCoin client</source>
-        <translation>DetkCoin клиент</translation>
+        <source>GeoCoin client</source>
+        <translation>GeoCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to DetkCoin network</source>
+        <source>%n active connection(s) to GeoCoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid DetkCoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом DetkCoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GeoCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом GeoCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. DetkCoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. DetkCoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. GeoCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. GeoCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DetkCoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным DetkCoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GeoCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным GeoCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>DetkCoin-Qt</source>
-        <translation>DetkCoin-Qt</translation>
+        <source>GeoCoin-Qt</source>
+        <translation>GeoCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DetkCoin after logging in to the system.</source>
-        <translation>Автоматически запускать DetkCoin после входа в систему</translation>
+        <source>Automatically start GeoCoin after logging in to the system.</source>
+        <translation>Автоматически запускать GeoCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DetkCoin on system login</source>
-        <translation>&amp;Запускать DetkCoin при входе в систему</translation>
+        <source>&amp;Start GeoCoin on system login</source>
+        <translation>&amp;Запускать GeoCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DetkCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для DetkCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the GeoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для GeoCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DetkCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети DetkCoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the GeoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети GeoCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DetkCoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска DetkCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GeoCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска GeoCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DetkCoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса DetkCoin в списке транзакций.</translation>
+        <source>Whether to show GeoCoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса GeoCoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DetkCoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска DetkCoin</translation>
+        <source>This setting will take effect after restarting GeoCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска GeoCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DetkCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью DetkCoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GeoCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью GeoCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start detkcoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить detkcoin: обработчик click-to-pay</translation>
+        <source>Cannot start geocoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить geocoin: обработчик click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DetkCoin-Qt help message to get a list with possible DetkCoin command-line options.</source>
-        <translation>Показать помощь по DetkCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the GeoCoin-Qt help message to get a list with possible GeoCoin command-line options.</source>
+        <translation>Показать помощь по GeoCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>DetkCoin - Debug window</source>
-        <translation>DetkCoin - Окно отладки</translation>
+        <source>GeoCoin - Debug window</source>
+        <translation>GeoCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DetkCoin Core</source>
-        <translation>Ядро DetkCoin</translation>
+        <source>GeoCoin Core</source>
+        <translation>Ядро GeoCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DetkCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл DetkCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the GeoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл GeoCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the DetkCoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль DetkCoin.</translation>
+        <source>Welcome to the GeoCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль GeoCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DetkCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
-        <translation>Введите DetkCoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>Enter a GeoCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
+        <translation>Введите GeoCoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DetkCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом DetkCoin</translation>
+        <source>Sign the message to prove you own this GeoCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом GeoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DetkCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DetkCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified GeoCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом GeoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DetkCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
-        <translation>Введите адрес DetkCoin (напр. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
+        <source>Enter a GeoCoin address (e.g. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</source>
+        <translation>Введите адрес GeoCoin (напр. DAYGPJgC8hzJhycJxTzj3SisDngxaAcdU5)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DetkCoin signature</source>
-        <translation>Введите подпись DetkCoin</translation>
+        <source>Enter GeoCoin signature</source>
+        <translation>Введите подпись GeoCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The DetkCoin developers</source>
-        <translation>Разработчики DetkCoin</translation>
+        <source>The GeoCoin developers</source>
+        <translation>Разработчики GeoCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>DetkCoin version</source>
+        <source>GeoCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or detkcoind</source>
-        <translation>Отправить команду на -server или detkcoind</translation>
+        <source>Send command to -server or geocoind</source>
+        <translation>Отправить команду на -server или geocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: detkcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: detkcoin.conf)</translation>
+        <source>Specify configuration file (default: geocoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: geocoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: detkcoind.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: detkcoin.pid)</translation>
+        <source>Specify pid file (default: geocoind.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: geocoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=detkcoinrpc
+rpcuser=geocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GeoCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=detkcoinrpc
+rpcuser=geocoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;DetkCoin Alert&quot; admin@foo.com
+Например: alertnotify=echo %%s | mail -s &quot;GeoCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. DetkCoin is probably already running.</source>
-        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, DetkCoin уже работает.</translation>
+        <source>Cannot obtain a lock on data directory %s. GeoCoin is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, GeoCoin уже работает.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DetkCoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, DetkCoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GeoCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, GeoCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,9 +2628,9 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the DetkCoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the GeoCoin Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. DetkCoin Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. GeoCoin Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2819,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DetkCoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию DetkCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GeoCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию GeoCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart DetkCoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите DetkCoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart GeoCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите GeoCoin для завершения операции.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2884,8 +2884,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. DetkCoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, DetkCoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. GeoCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, GeoCoin уже работает.</translation>
     </message>
     <message>
         <location line="+64"/>

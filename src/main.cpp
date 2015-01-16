@@ -20,7 +20,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "DetkCoin cannot be compiled without assertions."
+# error "GeoCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -69,7 +69,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DetkCoin Signed Message:\n";
+const string strMessageMagic = "GeoCoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -360,7 +360,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // DetkCoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // GeoCoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -621,7 +621,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // DetkCoin
+    // GeoCoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1085,22 +1085,25 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 50 * COIN;
-	if (nHeight <= 3) { nSubsidy = 10000 * COIN; } // 2/3 of it is a Detk Defence Fund, the rest - for the devs
-    int halvingInterval = 10000;
-    int halvingGap = 30000; // Num of blocks between 1st and second halving
-
-    while (nHeight > halvingInterval) {
-        nSubsidy /= 2;
-        halvingInterval += halvingGap;
-        halvingGap += 10000; // Next halving height gap is 10,000 blocks more than the last
-    }
+    int64 nSubsidy = 0 * COIN;
+    if (nHeight == 1) { nSubsidy = 34000 * COIN; } // for geo developments
+    else if (nHeight <= 100) { nSubsidy = 0 * COIN; }
+    else if (nHeight <= 40000) { nSubsidy = 10 * COIN; }
+    else if (nHeight <= 80000) { nSubsidy = 9 * COIN; }
+    else if (nHeight <= 120000) { nSubsidy = 8 * COIN; }
+    else if (nHeight <= 160000) { nSubsidy = 7 * COIN; }
+    else if (nHeight <= 200000) { nSubsidy = 6 * COIN; }
+    else if (nHeight <= 240000) { nSubsidy = 5 * COIN; }
+    else if (nHeight <= 280000) { nSubsidy = 4 * COIN; }
+    else if (nHeight <= 320000) { nSubsidy = 3 * COIN; }
+    else if (nHeight <= 360000) { nSubsidy = 2 * COIN; }
+    else if (nHeight <= 5000000) { nSubsidy = 1 * COIN; }
 
     return nSubsidy + nFees;
 }
 
-int64 nTargetTimespan = 24 * 60 * 60; // Detkcoin: 1 day
-int64 nTargetSpacing = 5 * 60; // Detkcoin: 5 minutes
+int64 nTargetTimespan = 24 * 60 * 60; // Geocoin: 1 day
+int64 nTargetSpacing = 1 * 60; // Geocoin: 1 minutes
 int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1190,7 +1193,7 @@ unsigned int static NiteGravityWell(const CBlockIndex* pindexLast, const CBlockH
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     if (pindexLast->nHeight + 1 > 2851200)
-        nTargetSpacing = 2* 60; // DetkCoin: 2 minute block target after 
+        nTargetSpacing = 2* 60; // GeoCoin: 2 minute block target after 
     
     static const int64 BlocksTargetSpacing = nTargetSpacing;
     static const unsigned int TimeDaySeconds = nTargetTimespan;
@@ -2276,7 +2279,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // DetkCoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // GeoCoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -4180,7 +4183,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// DetkCoinMiner
+// GeoCoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4593,7 +4596,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("DetkCoinMiner:\n");
+    printf("GeoCoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4602,7 +4605,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("DetkCoinMiner : generated block is stale");
+            return error("GeoCoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4616,17 +4619,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("DetkCoinMiner : ProcessBlock, block not accepted");
+            return error("GeoCoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static DetkCoinMiner(CWallet *pwallet)
+void static GeoCoinMiner(CWallet *pwallet)
 {
-    printf("DetkCoinMiner started\n");
+    printf("GeoCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("detkcoin-miner");
+    RenameThread("geocoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4648,7 +4651,7 @@ void static DetkCoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running DetkCoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running GeoCoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4721,7 +4724,7 @@ void static DetkCoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("DetkCoinMiner terminated\n");
+        printf("GeoCoinMiner terminated\n");
         throw;
     }
 }
@@ -4746,7 +4749,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&DetkCoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&GeoCoinMiner, pwallet));
 }
 
 // Amount compression:

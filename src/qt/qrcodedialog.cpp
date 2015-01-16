@@ -85,7 +85,7 @@ void QRCodeDialog::genCode()
 
 QString QRCodeDialog::getURI()
 {
-    QString ret = QString("detkcoin:%1").arg(address);
+    QString ret = QString("geocoin:%1").arg(address);
     int paramCount = 0;
 
     ui->outUri->clear();
