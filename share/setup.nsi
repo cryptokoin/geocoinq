@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.7.0
 !define COMPANY "GeoCoin project"
-!define URL http://www.detk.pl/
+!define URL http://www.geo.pl/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"

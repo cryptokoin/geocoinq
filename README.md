@@ -6,7 +6,7 @@ A NEW QUBIT ALGO CRYPTOCOIN WITH A STABILIZER FUND!
 ASIC-restistant, FPGA-resistant, GPU/CPU friendly!
 
 ----------------
-www.detk.pl
+www.geo.pl
 ----------------
 
 Copyright (c) 2009-2014 Bitcoin Developers
@@ -15,7 +15,7 @@ Copyright (c) 2014 Deppcoin Developers
 Copyright (c) 2014 GeoCoin Developers
 
 ----------------
-www.detk.pl
+www.geo.pl
 ----------------
 
 License
@@ -27,5 +27,6 @@ information or see http://opensource.org/licenses/MIT.
 geocoin
 ========
 
-Cassubian Detk
+Cassubian Geo
+Cassubian Geo
 >>>>>>> 64fafa2e0e7cfc8e3acc96b3fb8773bc2dc3ce2d
