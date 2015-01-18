@@ -36,7 +36,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x0000003e5f3418e07df5f2af68646f39341394b00f804ae46e557226599cbead");
+uint256 hashGenesisBlock("0x00000036c527218f85507f444ea2a0586e7d22ba63bbd4874a545c08ad67d524");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 26);
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2768,7 +2768,7 @@ bool LoadBlockIndex()
         pchMessageStart[3] = 0xe2;
         // 
         // 
-        hashGenesisBlock = uint256("0x0000003e5f3418e07df5f2af68646f39341394b00f804ae46e557226599cbead");
+        hashGenesisBlock = uint256("0x00000036c527218f85507f444ea2a0586e7d22ba63bbd4874a545c08ad67d524");
     }
 
     //
@@ -2810,14 +2810,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1421468295;
+        block.nTime    = 1421621850;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 38648386;
+        block.nNonce   = 10389772;
 
         if (fTestNet)
         {
-            block.nTime    = 1421468295;
-            block.nNonce   = 38648386;
+            block.nTime    = 1421621850;
+            block.nNonce   = 10389772;
         }
 
 
